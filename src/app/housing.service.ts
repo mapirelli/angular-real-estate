@@ -5,7 +5,7 @@ import { HousingLocation } from "./housing-location";
   providedIn: "root",
 })
 export class HousingService {
-  url = "https://mapirelli-nuxt-api-locations.netlify.app";
+  url = "https://mapirelli-nuxt-api-locations.netlify.app/api/locations";
   constructor() {}
 
   async getAllHousingLocations(): Promise<HousingLocation[]> {
